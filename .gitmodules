@@ -1,0 +1,6 @@
+[submodule "cartographie"]
+	path = cartographie
+	url = https://github.com/PhoenixRobotik/cartographie
+[submodule "toolchains"]
+	path = toolchains
+	url = https://github.com/PhoenixRobotik/toolchains
