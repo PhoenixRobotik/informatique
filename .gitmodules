@@ -4,3 +4,9 @@
 [submodule "toolchains"]
 	path = toolchains
 	url = https://github.com/PhoenixRobotik/toolchains
+[submodule "strategie"]
+	path = strategie
+	url = https://github.com/PhoenixRobotik/strategie
+[submodule "asservissement"]
+	path = asservissement
+	url = https://github.com/PhoenixRobotik/asservissement
