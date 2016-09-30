@@ -8,7 +8,7 @@ for arch in $archs; do
     rm -rf build-$arch
     mkdir build-$arch
     cd    build-$arch
-    cmake .. -DARCH=$arch
+    cmake .. -DARCH=$arch -DBOARD=stm32f407-discovery
     cd ..
 done
 
