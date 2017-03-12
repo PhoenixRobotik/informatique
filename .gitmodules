@@ -10,3 +10,6 @@
 [submodule "asservissement"]
 	path = asservissement
 	url = https://github.com/PhoenixRobotik/asservissement
+[submodule "canbus-driver"]
+	path = canbus-driver
+	url = https://github.com/PhoenixRobotik/canbus-driver

@@ -5,10 +5,9 @@
 archs="PC libopencm3"
 
 for arch in $archs; do
-    rm -rf build-$arch
-    mkdir build-$arch
-    cd    build-$arch
-    cmake .. -DARCH=$arch -DBOARD=stm32f407-discovery
+    rm      build-$arch -rf
+    mkdir   build-$arch -p
+    cd      build-$arch
+    cmake .. -DCMAKE_TOOLCHAIN_FILE=../../toolchains/stm32f303.cmake -GNinja -DDEBUG=0
     cd ..
 done
-
