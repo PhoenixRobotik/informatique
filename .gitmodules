@@ -19,3 +19,6 @@
 [submodule "board-carte_kiwi"]
 	path = board-carte_kiwi
 	url = https://github.com/PhoenixRobotik/board-carte_kiwi
+[submodule "aspirateur"]
+	path = aspirateur
+	url = https://github.com/PhoenixRobotik/aspirateur
