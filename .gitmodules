@@ -22,3 +22,6 @@
 [submodule "aspirateur"]
 	path = aspirateur
 	url = https://github.com/PhoenixRobotik/aspirateur
+[submodule "XL-320"]
+	path = XL-320
+	url = https://github.com/PhoenixRobotik/XL-320
